@@ -1,0 +1,61 @@
+[
+  {
+    "description": "  As a user on the DADI.blog home page the header should display correctly",
+    "elements": [
+      {
+        "id": "home-page---check-header;",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://dave.mustdash.es/\"",
+            "result": {
+              "status": "passed",
+              "duration": 3476482175
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/dave/projects/docker-web-blog/features/step_definitions/dadi_blog.header.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the title is \"Your site name\"",
+            "result": {
+              "status": "passed",
+              "duration": 17593744
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/dave/projects/docker-web-blog/features/step_definitions/dadi_blog.header.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 338156
+            },
+            "hidden": true,
+            "match": {
+              "location": "/usr/local/lib/node_modules/chimp/dist/lib/cucumberjs/hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "home-page---check-header",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Home Page - Check header",
+    "tags": [],
+    "uri": "/Users/dave/projects/docker-web-blog/features/dadi-blog.header.feature"
+  }
+]
